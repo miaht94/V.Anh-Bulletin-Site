@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   server:
-    image: cloud.canister.io:5000/miaht94/bulletin-site:latest
+    image: docker.io/miaht94/bulletin-site:latest
     ports:
       - "9000:9000"
     depends_on:
